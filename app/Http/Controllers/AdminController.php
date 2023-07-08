@@ -10,4 +10,9 @@ class AdminController extends Controller
     {
         return view('admin.index');
     }
+
+    public function adminLogin()
+    {
+        return \view('admin.admin-login');
+    }
 }
